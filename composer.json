@@ -22,16 +22,19 @@
     "require": {
         "guzzlehttp/guzzle": "^6.2 || ^7.1",
         "illuminate/support": "5.2.* || 5.3.* || 5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6 || ^7 || ^8 || ^9 || ^10 || ^11",
-        "ext-json": "*"
+        "ext-json": "*",
+        "guzzlehttp/psr7": "^2.4.4",
+        "nesbot/carbon": "^2.66.0",
+        "symfony/process": "^6.2.7"
     },
     "autoload": {
         "psr-4": {
-            "BoldApps\\ShopifyToolkit\\": "src/"
+            "BoldApps\ShopifyToolkit\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BoldApps\\ShopifyToolkit\\Test\\": "tests"
+            "BoldApps\ShopifyToolkit\Test\": "tests"
         },
         "classmap": [
             "tests"
